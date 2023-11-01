@@ -32,7 +32,7 @@ ol {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: Fira Sans Condensed , sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -66,6 +66,7 @@ ol {
 .content__list {
   height: 298px;
   overflow: hidden scroll;
+  
 }
 
 .content__details {
@@ -96,6 +97,7 @@ ol {
 }
 
 .search-form__fieldset-title {
+  
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -105,7 +107,7 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-family: Oswald;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -116,7 +118,7 @@ ol {
 .title {
   padding-bottom: 26px;
   color: #fff;
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-family: Oswald;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -132,7 +134,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -142,7 +144,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: inherit;
+  font-family: 'Fira Sans Condensed';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -172,8 +174,7 @@ fieldset {
 
 input[type="text"]::placeholder {
   color: rgba(255, 255, 255, 0.7);
-
-  font-family: inherit;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -193,13 +194,12 @@ input[type="text"]::placeholder {
 .search-form__checkbox-list {
   gap: 15px;
   display: flex;
-  justify-content: space-between;
   padding-bottom: 6px;
 }
 
 .search-form__pseudo-checkbox {
-  min-width: 19px;
-  min-height: 19px;
+  width: 19px;
+  height: 19px;
   border: 1px solid #fff;
   display: flex;
   justify-content: center;
@@ -212,7 +212,7 @@ input[type="text"]::placeholder {
   color: #fff;
   border: 1px solid #fff;
   text-align: center;
-  font-family: inherit;
+  font-family: Fira Sans Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
