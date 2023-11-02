@@ -32,7 +32,7 @@ ol {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: Fira Sans Condensed , sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -50,10 +50,12 @@ ol {
   margin-bottom: 16px;
   width: 711px;
   height: 386px;
+  position: relative;
 }
 .result__video {
-  height: 100%;
-  width: 100%;
+  height: 100%; 
+  width: 100%; 
+  object-position: center;
   object-fit: cover;
 }
 
@@ -66,7 +68,7 @@ ol {
 .content__list {
   height: 298px;
   overflow: hidden scroll;
-  
+  position: relative;
 }
 
 .content__details {
@@ -80,20 +82,17 @@ ol {
 
 .content__video-card {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-position: center;
+  object-fit: cover;
 }
 .content__video-card-description-container {
   flex-grow: 1;
-}
-
-.result__video-container {
-  position: relative;
-}
-.content__list {
-  position: relative;
 }
 
 .search-form__fieldset-title {
@@ -107,7 +106,7 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: Oswald;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -118,7 +117,7 @@ ol {
 .title {
   padding-bottom: 26px;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -130,7 +129,7 @@ ol {
   color: #ffffff;
   text-decoration: none;
   display: block;
-  margin: 2px;
+  margin: 0px 5px 3px 0px;
 }
 
 .content__video-card-title {
@@ -144,7 +143,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -172,9 +171,18 @@ fieldset {
   gap: 5px;
 }
 
+input[type="text"] {
+  color:#fff;
+  font-family: 'Fira Sans Condensed', Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 input[type="text"]::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial,sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -212,7 +220,7 @@ input[type="text"]::placeholder {
   color: #fff;
   border: 1px solid #fff;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
